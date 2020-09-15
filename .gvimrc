@@ -4,8 +4,10 @@ set shiftwidth=4
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
 set number
-set colorcolumn=80
 set smartindent
 colo torte
 syntax on
 set nobackup
+set noswapfile
+set noundofile
+set guifont=Monospace 14
